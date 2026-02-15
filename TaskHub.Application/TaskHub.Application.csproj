@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TaskHub.Domain\TaskHub.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
