@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Reflection.Emit;
 using TaskHub.Domain.Entities;
+using TaskHub.Infrastructure.ReadModels;
 
 namespace TaskHub.Infrastructure.Persistence;
 

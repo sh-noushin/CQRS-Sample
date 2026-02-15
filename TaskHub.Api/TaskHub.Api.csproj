@@ -8,9 +8,15 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Scalar.AspNetCore" Version="2.12.40" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TaskHub.Application\TaskHub.Application.csproj" />
     <ProjectReference Include="..\TaskHub.Domain\TaskHub.Domain.csproj" />
     <ProjectReference Include="..\TaskHub.Infrastructure\TaskHub.Infrastructure.csproj" />
   </ItemGroup>

@@ -1,4 +1,4 @@
-﻿namespace TaskHub.Infrastructure.Persistence;
+﻿namespace TaskHub.Infrastructure.ReadModels;
 
 public sealed class TaskListRead
 {

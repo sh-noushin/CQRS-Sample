@@ -1,6 +1,7 @@
 ﻿using TaskHub.Application.Abstractions;
 using TaskHub.Domain.Entities;
 using TaskHub.Infrastructure.Persistence;
+using TaskHub.Infrastructure.ReadModels;
 
 namespace TaskHub.Application.Commands.CreateTask;
 
